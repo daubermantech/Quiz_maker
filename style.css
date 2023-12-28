@@ -87,26 +87,40 @@ body{
 
 @media (max-width:1080px){
     .container {
-        top: 15%;
+        top: 25%;
         width: 600px;
         height: 650px;
 
     }
-}
-
-@media (max-width:900px){
-    .container{
+    .login_container i{
         top: 15%;
-        width: 600px;
-        height: 650px;
-         
     }
-
+                .input1 {
+                    width: 30%;
+                }
+        
+                .input2 {
+                    width: 30%;
+                }
+        
+                .login_container i {
+                    font-size: 130px;
+                }
+        
+                .login_btn {
+                    width: 20%;
+                }
+        
+                .login_container a {
+                    font-size: 28px;
+                }
 }
+
+
 @media (max-width:722px) {
     .container {
-        top: 10%;
-        width: 400px;
+        top: 20%;
+        width: 600px;
         height: 750px;
 
     }
@@ -126,5 +140,35 @@ body{
     .login_container i{
         font-size: 130px;
     }
+    
+}
+@media (max-width:600px) {
+    .container {
+            top: 20%;
+            width: 400px;
+            height: 750px;
+    
+        }
+
+        .input2 {
+            width: 45%;
+        }
+    
+        .input1 {
+            width: 45%;
+        }
+    
+        .login_btn {
+            width: 30%;
+        }
+    
+        .login_container a {
+            font-size: 25px;
+        }
+    
+        .login_container i {
+            font-size: 150px;
+        }
+
     
 }
