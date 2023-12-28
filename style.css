@@ -21,6 +21,7 @@ body{
         height: 100%;
         z-index: -1;
         filter: blur(3px);
+        
 }
 
 .container{
@@ -82,4 +83,48 @@ body{
     transform: translateX(-50%);
     background: linear-gradient(to right, rgba(255, 99, 11, 77%), rgba(255, 0, 199, 85%), rgba(204, 0, 255, 51%));
 
+}
+
+@media (max-width:1080px){
+    .container {
+        top: 15%;
+        width: 600px;
+        height: 650px;
+
+    }
+}
+
+@media (max-width:900px){
+    .container{
+        top: 15%;
+        width: 600px;
+        height: 650px;
+         
+    }
+
+}
+@media (max-width:722px) {
+    .container {
+        top: 10%;
+        width: 400px;
+        height: 750px;
+
+    }
+    .input2{
+        width: 40%;
+    }
+
+        .input1{
+            width: 40%;
+        }
+    .login_btn{
+        width: 30%;
+    }
+    .login_container a{
+        font-size: 25px;
+    }
+    .login_container i{
+        font-size: 130px;
+    }
+    
 }
